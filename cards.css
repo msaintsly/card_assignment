@@ -1,0 +1,40 @@
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 400px;
+  height: 200px;
+}
+
+#card-one{
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+}
+
+#card-two{
+  background-color: green;
+  color: aliceblue;
+  padding: 10px;
+}
+
+
+#card-three{
+  background-color: grey;
+  color: aliceblue;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: wheat;
+}
+
+p{
+  text-align: center;
+}
