@@ -8,12 +8,20 @@
 .card{
   width: 400px;
   height: 200px;
+  border: 2px solid black;
 }
 
 #card-one{
   background-color: blue;
   color: aliceblue;
   padding: 10px;
+}
+
+img{
+  width: 10%;
+  height: 20%;
+  display: block;
+  margin: auto;
 }
 
 #card-two{
@@ -32,9 +40,28 @@
 h1{
   text-align: center;
   text-decoration: underline;
-  color: wheat;
+  color: gold;
+  font-weight: bold;
 }
 
 p{
   text-align: center;
+  color: antiquewhite;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.grid-item{
+  background-color: rgb(68, 89, 97);
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 200px;
 }
